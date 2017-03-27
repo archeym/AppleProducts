@@ -13,6 +13,8 @@
 		A1A033C31E88B31A0064F6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A033C11E88B31A0064F6D1 /* Main.storyboard */; };
 		A1A033C51E88B31B0064F6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A033C41E88B31B0064F6D1 /* Assets.xcassets */; };
 		A1A033C81E88B31B0064F6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A033C61E88B31B0064F6D1 /* LaunchScreen.storyboard */; };
+		A1A033D11E88B3570064F6D1 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A033D01E88B3570064F6D1 /* ListViewController.m */; };
+		A1A033D41E88B8AD0064F6D1 /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A033D31E88B8AD0064F6D1 /* list.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A1A033C41E88B31B0064F6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A033C71E88B31B0064F6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A033C91E88B31B0064F6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A033CF1E88B3570064F6D1 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		A1A033D01E88B3570064F6D1 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		A1A033D21E88B8AD0064F6D1 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		A1A033D31E88B8AD0064F6D1 /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = list.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				A1A033BC1E88B31A0064F6D1 /* AppDelegate.m */,
 				A1A033BE1E88B31A0064F6D1 /* ViewController.h */,
 				A1A033BF1E88B31A0064F6D1 /* ViewController.m */,
+				A1A033D21E88B8AD0064F6D1 /* list.h */,
+				A1A033D31E88B8AD0064F6D1 /* list.m */,
 				A1A033C11E88B31A0064F6D1 /* Main.storyboard */,
+				A1A033CF1E88B3570064F6D1 /* ListViewController.h */,
+				A1A033D01E88B3570064F6D1 /* ListViewController.m */,
 				A1A033C41E88B31B0064F6D1 /* Assets.xcassets */,
 				A1A033C61E88B31B0064F6D1 /* LaunchScreen.storyboard */,
 				A1A033C91E88B31B0064F6D1 /* Info.plist */,
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					A1A033B41E88B31A0064F6D1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DG36AK5R97;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A033D41E88B8AD0064F6D1 /* list.m in Sources */,
 				A1A033C01E88B31A0064F6D1 /* ViewController.m in Sources */,
 				A1A033BD1E88B31A0064F6D1 /* AppDelegate.m in Sources */,
+				A1A033D11E88B3570064F6D1 /* ListViewController.m in Sources */,
 				A1A033BA1E88B31A0064F6D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DG36AK5R97;
 				INFOPLIST_FILE = "Week2Assesment-Archie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NEXTKRG.Week2Assesment-Archie";
@@ -283,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DG36AK5R97;
 				INFOPLIST_FILE = "Week2Assesment-Archie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NEXTKRG.Week2Assesment-Archie";
